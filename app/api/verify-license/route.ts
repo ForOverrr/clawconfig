@@ -18,10 +18,12 @@ export async function POST(req: NextRequest) {
     });
 
     const data = await res.json();
+    console.log("Gumroad response:", JSON.stringify(data));
 
     return NextResponse.json({
       valid: data.success === true,
       uses: data.uses,
+      debug: data.message || null,
     });
   } catch {
     return NextResponse.json({ valid: false, error: "Verification failed" }, { status: 500 });
