@@ -93,7 +93,7 @@ export default function Home() {
           <div className="border-t border-zinc-800 pt-6 space-y-3">
             <p className="text-zinc-400 text-sm">Don&apos;t have a license yet?</p>
             <a
-              href="https://gumroad.com/l/clawconfig"
+              href="https://reachdenji.gumroad.com/l/clawconfig"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-amber-400 font-semibold px-6 py-3 rounded-lg text-sm transition"
